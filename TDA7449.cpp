@@ -53,8 +53,8 @@ void TDA7449::setTreble(int treble){
 
 void TDA7449::setInput(int input){
   switch (input) {
-        case 1: input = TDA7449_INP1;break;
-	case 2: input = TDA7449_INP2;break;}
+        case 1: input = 0x02;break;
+	case 2: input = 0x03;break;}
   writeWire(TDA7449_INP_SEL,input);	
   } 
 
