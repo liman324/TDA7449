@@ -15,21 +15,16 @@
 #ifndef TDA7449_H
 #define TDA7449_H
 
-#define TDA7449_address 0x88 // адрес
+#define TDA7449_address 0x44 // адрес
 
 //Sub addresses
-#define TDA7449_INP_SEL    0x00
-#define TDA7449_INP_GAIN   0x01
-#define TDA7449_VOLUME     0x02
-#define TDA7449_BASS       0x04
-#define TDA7449_TREBLE     0x05
-#define TDA7449_ATT_RIGHT  0x06
-#define TDA7449_ATT_LEFT   0x07
-
-//Input selection
-#define TDA7449_INP1       0x03
-#define TDA7449_INP2       0x02
-
+#define TDA7449_INP_SEL    0b00000000
+#define TDA7449_INP_GAIN   0b00000001
+#define TDA7449_VOLUME     0b00000010
+#define TDA7449_BASS       0b00000100
+#define TDA7449_TREBLE     0b00000101
+#define TDA7449_ATT_RIGHT  0b00000110
+#define TDA7449_ATT_LEFT   0b00000111
 
 #include <Arduino.h>
 class TDA7449
