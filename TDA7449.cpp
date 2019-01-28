@@ -63,12 +63,10 @@ void TDA7449::inputGain(int gain){
 }
 
 void TDA7449::setAttR(int att_r){
-  if(att_r > 8){att_r = 8;}
   writeWire(TDA7449_ATT_RIGHT, att_r);
 }
 
 void TDA7449::setAttL(int att_l){
-  if(att_l > 8){att_l = 8;}
   writeWire(TDA7449_ATT_LEFT, att_l);
 }
 
