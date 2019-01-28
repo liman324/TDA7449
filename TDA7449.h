@@ -11,6 +11,7 @@
 //Mute attenuation 100 dB
 ////////////////////////////////////////////////////////////////////////////
 // TDA7449 | rcl-radio.ru | liman324@yandex.ru | Автор: Лиман А.А.
+// Пример использования - http://rcl-radio.ru/?p=56015
 
 #ifndef TDA7449_H
 #define TDA7449_H
