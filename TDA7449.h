@@ -14,8 +14,8 @@
 
 #ifndef TDA7449_H
 #define TDA7449_H
-
-#define TDA7449_address 0x44 // адрес
+// address 7 bit
+#define TDA7449_address 0x44 // адрес HEX 88 > 0b10001000 > 7 bit = 0b1000100 = 0x44
 
 //Sub addresses
 #define TDA7449_INP_SEL    0b00000000
